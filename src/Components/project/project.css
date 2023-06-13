@@ -1,0 +1,62 @@
+/* Example CSS for the project section */
+#projects {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.project-list {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    row-gap: 25px;
+}
+
+.project {
+    width: 295px;
+    overflow: hidden;
+    border-radius: 25px;
+    border: 1px solid lavender;
+    margin: 10px;
+    box-shadow: 5px 5px 15px 5px rgba(230, 230, 250, 1);
+}
+
+#projects h2 {
+    font-size: 40px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    position: relative;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.project-details h3 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.project-details p {
+    margin-bottom: 10px;
+    font-size: 12px;
+
+
+}
+
+.project-details a {
+    display: inline-block;
+    padding: 4px 8px;
+    background-color: #1795D4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.project-details a:hover {
+    background-color: #13658e;
+}
