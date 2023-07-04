@@ -12,7 +12,7 @@ const Header = () => {
                 </a>
 
                 <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
-                    <ul className='nav__list grid'>
+                    <ul className='nav__list'>
                         <li className='nav__item'>
                             <a href='#home' className='nav__link active-link'>
                                 <i className='uil uil-estate nav__icon'></i>Home
